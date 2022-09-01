@@ -1,0 +1,17 @@
+
+
+
+
+
+read 
+ public function show_area()
+    {
+         $area = Area::all();
+        return view ('admin.show_area',compact('area'));
+        
+    }
+
+
+ 
+
+
